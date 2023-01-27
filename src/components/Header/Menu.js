@@ -8,13 +8,13 @@ function Menu(props) {
   return (
     <>
       <Link to="/">
-        <h1 className={classes}>Home</h1>
+        <p className={classes}>Home</p>
       </Link>
       <Link to="/about">
-        <h1 className={classes}>About</h1>
+        <p className={classes}>About</p>
       </Link>
       <Link to="/cart">
-        <h1 className={classes}>Cart</h1>
+        <p className={classes}>Cart</p>
       </Link>
     </>
   );

@@ -6,9 +6,10 @@ function Search(props) {
   const restaurants = props.restaurants;
 
   return (
-    <div>
+    <div className="search__card">
       <input
         type="search"
+        className="search__input"
         onChange={(e) => {
           setInputTxt(e.target.value);
           if (e.target.value === "") {
@@ -18,6 +19,7 @@ function Search(props) {
         value={inputTxt}
       />
       <button
+        className="search__btn"
         type="search"
         onClick={() => {
           props.setFilteredData(restaurants, inputTxt);
