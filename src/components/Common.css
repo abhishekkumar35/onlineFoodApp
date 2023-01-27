@@ -16,6 +16,7 @@
   color: black;
   margin: 10px;
   width: 200px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   padding: 5px;
