@@ -1,4 +1,4 @@
-import "../common.css";
+import "../Common.css";
 
 function Shimmer() {
   return (
