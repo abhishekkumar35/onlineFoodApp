@@ -3,7 +3,7 @@ import "../Common.css";
 function Shimmer() {
   return (
     <div className="card">
-      {Array(15)
+      {Array(30)
         .fill("")
         .map((i) => (
           <div className="card-body background"></div>
