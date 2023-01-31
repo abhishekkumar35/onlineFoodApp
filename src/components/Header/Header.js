@@ -15,7 +15,7 @@ function Header() {
       <div className="header-style">
         <div>
           <img
-            src="https://asset.cloudinary.com/a3fcdvld162/b2cdb003343c6bc47232016232f99f60"
+            src="https://res.cloudinary.com/a3fcdvld162/image/upload/v1675161652/food-munch-img_utuncq.png"
             className="logo"
             alt="FoodMunch"
           />
