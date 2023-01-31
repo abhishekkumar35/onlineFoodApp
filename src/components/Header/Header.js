@@ -15,9 +15,9 @@ function Header() {
       <div className="header-style">
         <div>
           <img
-            src="./media/cheflovelogo.png"
+            src="https://asset.cloudinary.com/a3fcdvld162/b2cdb003343c6bc47232016232f99f60"
             className="logo"
-            alt="Food Carve"
+            alt="FoodMunch"
           />
         </div>
         <div className="items-menu">
